@@ -6,7 +6,7 @@ import sys
 
 # 函数开始
 def auto_git():
-    # 检测语法python2.7使用raw_input   3.6使用input 
+    # 检测语法python2.7使用raw_input   3.6使用input  
     try :
         commit = raw_input('commit message:')
     except:
