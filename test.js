@@ -6,8 +6,8 @@ var connection = mysql.createConnection({
     type: "mysql",
     host: '192.168.40.52', //主机
     database: "wt_peixunjigou",
-    user: 'wttest', //MySQL认证用户名
-    password: "4TVem5tjj3fXCKKR", //MySQL认证用户密码11111
+    user: 'wttest', //MySQL认证用户名 
+    password: "4TVem5tjj3fXCKKR", //MySQL认证用户密码11111  
     port: '3306', //端口号
 });
 connection.connect((err) => {
