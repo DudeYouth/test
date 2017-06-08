@@ -2,12 +2,12 @@
 var mysql = require('mysql'); //调用MySQL模块
 
 var connection = mysql.createConnection({
-    host:"localhost",
+    host: "localhost",
     type: "mysql",
     host: '192.168.40.52', //主机
     database: "wt_peixunjigou",
     user: 'wttest', //MySQL认证用户名
-    password: "4TVem5tjj3fXCKKR", //MySQL认证用户密码
+    password: "4TVem5tjj3fXCKKR", //MySQL认证用户密码111
     port: '3306', //端口号
 });
 connection.connect((err) => {
